@@ -27,7 +27,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'angellandros.me',
-    'angellandros.ir'
+    'angellandros.ir',
+    '127.0.0.1',
 ]
 
 
