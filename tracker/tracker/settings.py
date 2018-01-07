@@ -25,12 +25,16 @@ SECRET_KEY = 'e%zmf^e0!d=ii#ru43x!v0tk09ahwk=j!$*l=n@k7yk3^!%j)y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'angellandros.me',
+    'angellandros.ir'
+]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'imagetracker.apps.ImagetrackerConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
